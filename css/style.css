@@ -7,7 +7,7 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -17,4 +17,29 @@ body {
 	padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1 {
+  font-family: 'Libre Baskerville';
+  color: rgb(156, 171, 165);
+  font-size: 5em;
+}
+
+h2 {
+  font-family: 'Libre Baskerville';
+  color: rgb(156, 171, 165);
+}
+
+p {
+  color: #555;
+  font-size: 1em;
+  margin: 0 0 20px 0;
+}
+
+#main img {
+  border: 5px rgb(152, 173, 166) solid;
+}
+
+#copyright p{
+  display: block;
+  font-size: .75em;
+  float: right;
+}
