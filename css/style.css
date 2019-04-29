@@ -1,20 +1,40 @@
-/*////////////// Fonts //////////////*/
-
-/* link the web font used for the level 1 heading here */
-
-/*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
-	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+  background: #F3EBE9;
+  font-size: 100%;
+  font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
-	width: 960px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0 45px 20px;
+  width: 960px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0 45px 20px;
 }
 
-/* Write all remaining styles here */
+h1 {
+  font-family: 'Baskerville';
+  color: rgb(156, 171, 165);
+  font-size: 5em;
+}
+
+h2 {
+  font-family: 'Baskerville';
+  color: rgb(156, 171, 165);
+}
+
+p {
+  color: #555;
+  font-size: 1em;
+  margin: 0 0 20px 0;
+}
+
+#main img {
+  border: 5px rgb(152, 173, 166) solid;
+}
+
+#copyright p{
+  display: block;
+  font-size: .75em;
+  float: right;
+}
